@@ -24,6 +24,7 @@ namespace ZombieParty.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Title = _localizer["PrivacyTitle"];
             return View();
         }
 
